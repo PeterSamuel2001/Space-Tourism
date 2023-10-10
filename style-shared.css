@@ -1,3 +1,16 @@
+input[type="checkbox"] {
+    display: none;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+ font-weight: 400;
+ font-size: 8.5em;
+}
+
 @media (max-width: 768px) {
     .container {
         display: flex;

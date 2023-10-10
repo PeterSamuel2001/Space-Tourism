@@ -31,9 +31,7 @@ body {
 
 /* Set core body defaults */
 body {
-    --ff-serif: "Bellefair", serif;
-    --ff-sans-cond: "Barlow Condensed", sans-serif;
-    --ff-sans-normal: "Barlow", sans-serif;
+    font-family: 'Forum', serif;
     text-rendering: optimizeSpeed;
     line-height: 1.6;
 
@@ -79,16 +77,4 @@ svg {
     100% {
         transform: rotate(360deg);
     }
-}
-
-/* utility classes */
-
-/* content */
-
-input[type="checkbox"] {
-    display: none;
-}
-
-a {
-    color: white;
 }
