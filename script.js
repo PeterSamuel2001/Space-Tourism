@@ -15,3 +15,4 @@ document.getElementById('check').addEventListener('change', function () {
         }, 100);
     }
 });
+
