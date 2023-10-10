@@ -60,20 +60,12 @@
         color: black;
         background-color: #fff;
         padding: 12vh 5vw;
-        border-radius: 1000px;
-        transition: 0.9s;
+        border-radius: 100%;
     }
 
     .explore-shadow {
-        font-size: 2rem;
         position: relative;
-        z-index: 1;
         display: inline-grid;
-        place-items: center;
-        padding: 0 2em;
-        border-radius: 50%;
-        aspect-ratio: 1;
-        text-decoration: none;
     }
 
     .explore-shadow::after {
@@ -83,7 +75,7 @@
         width: 100%;
         height: 100%;
         background: rgba(255, 255, 255, 0.232);
-        border-radius: 50%;
+        border-radius: 100%;
         opacity: 0;
         transition: opacity 500ms linear, transform 750ms ease-in-out;
     }

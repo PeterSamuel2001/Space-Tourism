@@ -11,6 +11,14 @@ h1 {
  font-size: 8.5em;
 }
 
+p {
+    color: #D0D6F9;
+}
+
+h2 {
+    color: #e7eaf8;
+}
+
 @media (max-width: 768px) {
     .container {
         display: flex;
