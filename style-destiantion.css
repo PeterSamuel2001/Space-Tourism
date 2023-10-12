@@ -29,8 +29,9 @@
     }
 
     .planet {
-        width: 55vw;
-        height: 25vh;
+        width: 13rem;
+        height: 13rem;
+        animation: rotate 6s infinite linear;
     }
 
     .destination-list {
@@ -73,6 +74,10 @@
         margin-bottom: 10vh;
     }
 
+    .page-title span {
+        color: rgba(255, 255, 255, 0.473);
+    }
+
     .destination-list {
         display: flex;
         gap: 2vw;
@@ -80,7 +85,7 @@
 
     .active-section {
         border-bottom: solid 3px white;
-        padding: 1.25vh;
+        padding: 1.25vh 0vw;
     }
 
     .planet-info {
@@ -97,10 +102,12 @@
         height: 90vh;
     }
 
+
+
     .planet {
-        width: 25vw;
-        height: 50vh;
-        animation: rotate 7s infinite linear;
+        width: 19rem;
+        height: 19rem;
+        animation: rotate 6s infinite linear;
     }
 
     .travel-info {

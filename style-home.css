@@ -50,10 +50,17 @@
     section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 10vh;
         align-items: center;
         gap: 30vw;
         height: 100vh;
+    }
+
+    .info {
+        margin-top: 20vh;
+    }
+
+    .explore-div {
+        margin-top: 20vh;
     }
 
     .explore {
