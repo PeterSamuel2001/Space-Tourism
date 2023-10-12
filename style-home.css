@@ -65,8 +65,9 @@
 
     .explore {
         color: black;
+        font-size: 2em;
         background-color: #fff;
-        padding: 12vh 5vw;
+        padding: 6rem 5rem;
         border-radius: 100%;
     }
 
