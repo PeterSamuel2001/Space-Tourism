@@ -7,8 +7,8 @@ a {
 }
 
 h1 {
- font-weight: 400;
- font-size: 8.5em;
+    font-weight: 400;
+    font-size: 8.5em;
 }
 
 p {
@@ -100,7 +100,7 @@ span {
 
     .horizontal-line {
         border: solid 1px var(--line-clr);
-        width: 40vw;
+        width: 37vw;
         left: 12vw;
         position: fixed;
         z-index: 1;
