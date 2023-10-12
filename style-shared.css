@@ -3,7 +3,7 @@ input[type="checkbox"] {
 }
 
 a {
-    color: #e4e7f6;
+    color: #eceefb;
 }
 
 h1 {
@@ -21,6 +21,11 @@ h2 {
 
 span {
     color: #ffffff;
+    font-weight: 900;
+}
+
+:root {
+    --line-clr: rgba(255, 255, 255, 0.204);
 }
 
 @media (max-width: 768px) {
@@ -42,12 +47,12 @@ span {
 
     .bars {
         position: fixed;
-        right: 4vw;
+        right: 6vw;
         top: 4.25vh;
     }
 
     .xmark {
-        padding: 4.25vh 4.5vw;
+        padding: 4.25vh 6vw;
         text-align: right;
     }
 
@@ -124,8 +129,10 @@ span {
         border-bottom: solid 3px white;
         padding-bottom: 1.6rem;
     }
-}
 
-:root {
-    --line-clr: rgba(255, 255, 255, 0.204);
+    .page-title span {
+        color: rgba(255, 255, 255, 0.473);
+        font-weight: 900;
+    }
+
 }

@@ -83,13 +83,9 @@
         height: 100vh;
     }
 
-.page-title { 
-    margin-top: 15vh;
-    margin-bottom: 5vh;
-}
-
-    .page-title span {
-        color: rgba(255, 255, 255, 0.473);
+    .page-title {
+        margin-top: 15vh;
+        margin-bottom: 5vh;
     }
 
     .technology-list {
