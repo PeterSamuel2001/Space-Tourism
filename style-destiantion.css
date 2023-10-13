@@ -62,7 +62,6 @@
         background-image: url(assets/destination/background-destination-desktop.jpg);
         background-size: cover;
         color: white;
-        padding: 0vh 12vw;
     }
 
     h1 {
@@ -70,7 +69,7 @@
     }
 
     .page-title {
-        margin-top: -10vh;
+        margin-top: -14vh;
         margin-bottom: 10vh;
     }
 

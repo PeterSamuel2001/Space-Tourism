@@ -78,13 +78,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-content: center;
-
-
         height: 100vh;
     }
 
     .page-title {
-        margin-top: 15vh;
         margin-bottom: 5vh;
     }
 
@@ -125,8 +122,10 @@
     }
 
     .desktop-photo {
+        position: absolute;
         width: 22rem;
         height: 24rem;
-        margin-left: 18vw;
+        right: 0vw;
+        top: 30vh;
     }
 }

@@ -78,7 +78,7 @@ span {
 @media (min-width: 769px) {
 
     body {
-        padding-left: 12vw;
+        padding: 0vh 12vw;
     }
 
     .bars,
